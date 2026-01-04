@@ -1,0 +1,62 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["Halo", "Selamat pagi", "Siang", "Malam", "Permisi", "Hi", "Halo admin", "P", "halo"],
+      "responses": [
+        "Halo Kak! Selamat datang di Layanan KORDER (Kuota Order). Ada yang bisa admin bantu hari ini?",
+        "Selamat datang! Mau isi kuota apa hari ini? Admin siap bantu proses cepat lho!"
+      ]
+    },
+    {
+      "tag": "cek_harga",
+      "patterns": ["Berapa harga kuota?", "Daftar harga", "Cek harga paket", "Katalog", "Paket paling murah apa?", "Price list"],
+      "responses": [
+        "Ini dia daftar harga paket yang lagi best seller di KORDER Kak: \n\n1. Telkomsel 3GB (3 Hari) - Rp13.000\n2. Telkomsel 3GB (5 Hari) - Rp15.000\n3. TRI 3GB (3 Hari) - Rp13.000\n4. TRI 6GB (5 Hari) - Rp23.000\n5. Indosat 3GB (5 Hari) - Rp15.000\n6. Indosat 5GB (5 Hari) - Rp19.000\nKakak mau tau detail paket yang mana? Atau mau langsung pesan? Ketik aja 'Detail paket [Nama Provider] ' atau 'Cara beli' ya!"
+      ]
+    },
+    {
+      "tag": "detail_paket",
+      "patterns": ["Detail paket Telkomsel", "Detail paket Indosat", "Rincian paket Tri", "Apa bedanya paketnya?", "Info detail"],
+      "responses": [
+        "Oke Kak, admin jelasin ya! \n- Untuk paket **Telkomsel**, kuotanya Full 24 Jam di semua jaringan (2G/3G/4G/5G).\n- Untuk paket **Indosat**, kuota utama besar dan sudah termasuk gratis nelpon ke sesama.\n- Untuk paket **Tri**, harganya paling miring dan masa aktifnya pas buat mingguan.\n\nGimana Kak? Jadi pilih paket yang mana nih buat nemenin harimu?"
+      ]
+    },
+    {
+      "tag": "cara_beli",
+      "patterns": ["Gimana cara belinya?", "Cara pesan kuota", "Saya mau beli", "Prosedur pembelian", "Langkah-langkah beli kuota"],
+      "responses": [
+        "Gampang banget Kak! \n1. Sebutkan paket yang dipilih.\n2. Kirim nomor HP-nya.\n3. Admin kasih nomor rekening/e-wallet.\n4. Kakak bayar, konfirmasi, dan kuota langsung meluncur! Mau diproses sekarang?"
+      ]
+    },
+    {
+      "tag": "metode_pembayaran",
+      "patterns": ["Bisa bayar pakai apa?", "Pembayaran lewat mana?", "Ada Dana?", "Bisa pakai OVO?", "Transfer bank?", "ShopeePay"],
+      "responses": [
+        "Pembayaran lengkap kok Kak! Bisa via **DANA, OVO, GoPay, ShopeePay**, atau **Transfer Bank (BCA, Mandiri, BRI)**. Kakak lebih nyaman pakai yang mana?"
+      ]
+    },
+    {
+      "tag": "komplain_kuota",
+      "patterns": ["Kuota belum masuk", "Gagal isi", "Kenapa belum ada SMS?", "Pending berapa lama?"],
+      "responses": [
+        "Waduh, maaf ya Kak kalau agak lama. Coba kirim bukti transfer dan nomor HP-nya di sini, admin langsung cek sistem sekarang juga. Tenang, admin kawal sampai masuk!"
+      ]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["Terima kasih", "Makasih ya", "Sip", "Oke admin", "Thanks"],
+      "responses": [
+        "Sama-sama Kak! Senang bisa bantu. Kalau butuh kuota lagi, jangan lupa sapa admin di sini lagi ya!",
+        "Siap Kak, sukses terus ya! Ditunggu orderan selanjutnya."
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": ["Sudah itu saja", "Dah", "Bye", "Sampai jumpa", "Keluar"],
+      "responses": [
+        "Terima kasih sudah hubungi KORDER! Sampai jumpa lagi Kak, semoga harinya menyenangkan!"
+      ]
+    }
+  ]
+}
